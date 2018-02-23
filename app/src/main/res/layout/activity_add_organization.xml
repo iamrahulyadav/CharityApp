@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--&gt;-->
+
+    <TextView
+        android:id="@+id/toolbar_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="@dimen/_7sdp"
+        android:text="Add Organization"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <!--<ImageView-->
+    <!--android:id="@+id/home_ivLogout"-->
+    <!--android:layout_width="@dimen/_20sdp"-->
+    <!--android:layout_height="@dimen/_20sdp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:layout_marginRight="@dimen/_10sdp"-->
+    <!--android:src="@drawable/logout" />-->
+
+    <!--</RelativeLayout>-->
+
+    <EditText
+        android:id="@+id/newOrg_etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Enter Organization Name"
+        android:textSize="@dimen/_13sdp" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/newOrg_spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp" />
+
+    <EditText
+        android:id="@+id/newOrg_etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:hint="Enter Address"
+        android:textSize="@dimen/_13sdp" />
+
+    <!--<EditText-->
+        <!--android:id="@+id/newOrg_etContact"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_15sdp"-->
+        <!--android:layout_marginRight="@dimen/_15sdp"-->
+        <!--android:hint="Enter Contact Number"-->
+        <!--android:textSize="@dimen/_13sdp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/newOrg_etAmount"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="@dimen/_15sdp"-->
+        <!--android:layout_marginRight="@dimen/_15sdp"-->
+        <!--android:hint="Enter Amount"-->
+        <!--android:textSize="@dimen/_13sdp" />-->
+
+    <EditText
+        android:id="@+id/newOrg_etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:gravity="top"
+        android:hint="Enter Description"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/newOrg_btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add"
+        android:textColor="@color/white" />
+
+</LinearLayout>

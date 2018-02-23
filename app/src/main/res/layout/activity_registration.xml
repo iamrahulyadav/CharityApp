@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regi_rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/regi_tvBasicInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:text="Create Profile"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/regi_etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_tvBasicInfo"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:hint="Username"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/regi_etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_etUsername"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Email"
+        android:imeOptions="actionDone"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/regi_etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_etEmail"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Mobile Number"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp" />
+
+    <EditText
+        android:id="@+id/regi_etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_etMobile"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:hint="Password"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingLeft="@dimen/_5sdp"
+        android:textSize="@dimen/_12sdp" />
+
+   <!-- <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_etRefkey"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_45sdp"
+        android:layout_marginRight="@dimen/_45sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <RadioButton
+            android:id="@+id/regi_rbKeyHolder"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:checked="true"
+            android:text="Staff"
+            android:textSize="@dimen/_12sdp" />
+
+        <RadioButton
+            android:id="@+id/regi_rbCompanyUser"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:checked="false"
+            android:text="Contractor"
+            android:textSize="@dimen/_12sdp" />
+    </RadioGroup>-->
+
+    <Button
+        android:id="@+id/regi_btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regi_etPassword"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="Continue"
+        android:textAllCaps="true"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/regi_llSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Already have an account? "
+            android:textSize="@dimen/_9sdp" />
+
+        <TextView
+            android:id="@+id/regi_btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Sign in here."
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_9sdp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

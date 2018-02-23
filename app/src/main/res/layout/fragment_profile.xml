@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.charityapp.fragments.ProfileFragment">
+
+    <EditText
+        android:id="@+id/profile_etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:focusable="false"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/profile_etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <EditText
+        android:id="@+id/profile_etContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/newOrg_btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Update"
+        android:textColor="@color/white" />
+</LinearLayout>

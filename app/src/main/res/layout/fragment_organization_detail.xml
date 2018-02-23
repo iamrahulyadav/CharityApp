@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.charityapp.fragments.OrganizationDetailFragment">
+
+    <TextView
+        android:id="@+id/toolbar_tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="@dimen/_7sdp"
+        android:text="Add Organization"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:padding="@dimen/_3sdp"
+        android:text="Organization Name"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/orgDetail_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_3sdp"
+        android:textStyle="bold"
+        android:text="Organization Category"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/orgDetail_tvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_7sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_3sdp"
+        android:textStyle="bold"
+        android:text="Organization Location"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/orgDetail_tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_3sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:padding="@dimen/_3sdp"
+        android:textStyle="bold"
+        android:text="Organization Detail"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13sdp" />
+
+    <TextView
+        android:id="@+id/orgDetail_tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:gravity="top"
+        android:padding="@dimen/_7sdp"
+        android:textSize="@dimen/_13sdp" />
+
+    <Button
+        android:id="@+id/orgDetail_btnDonate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Donate"
+        android:textColor="@color/white" />
+
+</LinearLayout>
